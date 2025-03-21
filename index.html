@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="./style.css" rel="stylesheet">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <!-- <h1 id="heading">QR Code Generator</h1> -->
+    <img src="./head.png" id="head">
+    <input type="url" id="site" placeholder="www.sherlock.com" required><br>
+    <button id="submit" onclick="generateqrcode()" class="butter">Generate</button>
+    <div id="container">
+        <div id="box">
+            
+        </div>
+    </div>
+    <button id="download" class="butter">Download</button>
+    <script src="./app.js"></script>
+</body>
+</html>
